@@ -9,7 +9,6 @@ export Artist, { schema } from './model'
 const router = new Router()
 const { name, age, albums, tracks, self } = schema.tree
 
-/**Holakalala */
 /**
  * @api {post} /artists Create artist
  * @apiName CreateArtist
